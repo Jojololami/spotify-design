@@ -1,0 +1,400 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header img{
+    width: 25px;
+    padding-left: 100px;
+    padding-top: 10px;
+    float:left;
+}
+.image{
+    float: left;
+}
+.text {
+    float:left;
+    margin-top: 12px;
+    margin-left: 5px;
+}
+header .spotify{
+    width: 25px;
+    padding-bottom: 150px;
+    font-size: 19px;
+    color: white;
+    font-family: Franklin Gothic Medium;
+}
+header .desgn{
+    font-size: 17px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+header {
+    
+    background: rgb(13,54,201);
+    background: linear-gradient(90deg, rgba(13,54,201,0.8407738095238095) 0%, rgba(158,160,240,1) 47%, rgba(221,170,227,1) 100%);
+    width: auto;
+}
+.topnav {
+    float: right;
+    padding-right: 40px;
+    padding-top: 15px;
+    color: white;
+    font-family: Franklin Gothic Medium;
+ }
+ .topnav .events {
+    padding-left: 40px;
+    padding-right: 40px;
+ }
+ .topnav .events, .topnav .team {
+    color: white;
+    text-decoration-line: none;
+ }
+ .topnav .active {
+    color: white;
+    text-decoration-line: underline;
+ }
+section .first_section {
+    height: 480px;
+    width: auto;
+    background: rgb(13,54,201);
+    background: linear-gradient(90deg, rgba(13,54,201,0.8407738095238095) 0%, rgba(158,160,240,1) 47%, rgba(221,170,227,1) 100%);
+
+}
+section .first_section h1 {
+    padding-left: 100px;    
+    padding-top: 70px;
+    font-size: 150px;
+    color: white;
+}
+section .first_section p {
+    padding-left: 100px;    
+    padding-top: 40px;
+    font-size: 20px;
+    color: white;
+   
+}
+section .first_section .arrow_down {
+    width: 30px;
+    height: 30px;
+    transition: .5s;
+    float: left;
+    color: whitesmoke;
+    box-shadow: -2px 2px 0  rgb(255,255, 255, .5);
+    transform: rotate(-45deg);
+   
+}
+section .first_section .arrow_down:hover {
+    box-shadow: -2px 2px 0  rgb(255,255, 255, 1);
+  
+   
+}
+section .second_section {
+   
+    background: white;
+    
+}
+nav {
+    height: 75px;
+    width:auto;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-right: 100px;
+    
+}
+nav hr {
+    width:1235px;
+    margin-left: 30px;
+    
+}
+.menu li{
+    display: inline;
+    margin: 50px;
+    
+}
+.button {
+    font-family: Arial;
+    font-size: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0px;
+    color:black;
+}
+.selected {
+    font-family: Arial;
+    font-size: 11px;
+    font-weight:bolder;
+    text-decoration: underline;
+    padding: 0px;
+    color:black;
+}
+.second_section {
+    margin-left: 60px;
+    
+}
+.second_section .first_part{
+
+    display: flex;
+    margin-right: 20px;
+    
+}
+.second_section .first_part h1 {
+    margin-top: 60px;
+    font-size: 15px;
+    
+}
+.second_section .first_part p {
+    margin-top: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+.second_section .first_part h2 {
+    
+    font-size: 11px;
+    margin-top: 200px;
+    
+}
+.second_section .first_part img {
+    margin-left: 340px;
+    margin-right: 0px;
+    margin-top: 40px;
+    height:400px;
+    width: 88%;
+  
+}
+.second_section hr {
+    width: 550px;
+  
+}
+.second_section .second_part{
+
+    display: flex;
+    
+}
+.second_section .second_part h1 {
+    margin-top: 60px;
+    font-size: 15px;
+    
+}
+.second_section .second_part p {
+    margin-top: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+.second_section .second_part img {
+    margin-left: 256px;
+    margin-right: 0px;
+    margin-top: 10px;
+    height:400px;
+    width: 99%;
+  
+}
+@media (max-width:500px){
+    
+    .design img{
+        width: 20px;
+        padding-left: 30px;
+        padding-top: 10px;
+    }
+    .design .spotify{
+        width: 25px;
+        padding-bottom: 150px;
+        font-size: 16px;
+        color: white;
+        font-family: Franklin Gothic Medium;
+    }
+    .design .desgn{
+        font-size: 14px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+    header {
+        color: black;
+        height: 50px;
+        background: rgb(13,54,201);
+        background: linear-gradient(90deg, rgba(13,54,201,0.8407738095238095) 0%, rgba(158,160,240,1) 47%, rgba(221,170,227,1) 100%);
+        width: 100%;
+    }
+    header img{
+        width: 25px;
+        padding-left: 100px;
+        padding-top: 10px;
+        float:left;
+    }
+    .image{
+        float: left;
+    }
+    .text {
+        float:left;
+        margin-top: 12px;
+        margin-left: 5px;
+    }
+    .topnav {
+        float: right;
+        padding-right: 40px;
+        padding-top: 15px;
+        color: white;
+        font-family: Franklin Gothic Medium;
+     }
+     .topnav .events {
+        padding-left: 40px;
+        padding-right: 40px;
+     }
+     .topnav .events, .topnav .team {
+        color: white;
+        text-decoration-line: none;
+        font-size: 11px;
+     }
+     .topnav .active {
+        color: white;
+        text-decoration-line: underline;
+        font-size: 11px;
+     }
+    section .first_section {
+        height: 330px;
+        background: rgb(13,54,201);
+        background: linear-gradient(90deg, rgba(13,54,201,0.8407738095238095) 0%, rgba(158,160,240,1) 47%, rgba(221,170,227,1) 100%);
+    
+    }
+    section .first_section h1 {
+        padding-left: 30px;    
+        padding-top: 70px;
+        font-size: 50px;
+        color: white;
+    }
+    section .first_section p {
+        padding-left: 30px;    
+        padding-top: 40px;
+        font-size: 14px;
+        color: white;
+       
+    }
+    section .first_section .arrow_down {
+        width: 20px;
+        height: 20px;
+        transition: .5s;
+        float: left;
+        color: whitesmoke;
+        box-shadow: -2px 2px 0  rgb(255,255, 255, .5);
+        transform: rotate(-45deg);
+       
+    }
+    section .first_section .arrow_down:hover {
+        box-shadow: -2px 2px 0  rgb(255,255, 255, 1);
+      
+       
+    }
+    section .second_section {
+       
+        background: white;
+        
+    }
+    nav {
+        height: 10px;
+        width:100%;
+        margin-left: 15px;
+        margin-top: 20px;
+        margin-right: 100px;
+        
+    }
+    nav hr {
+        width:460px;
+        margin-left: 8px;
+        margin-top: 0px;
+    }
+    .menu li{
+        display: inline;
+        margin: 8px;
+        
+    }
+    .button {
+        font-family: Arial;
+        font-size: 8px;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 0px;
+        color:black;
+    }
+    .selected {
+        font-family: Arial;
+        font-size: 8px;
+        font-weight:bolder;
+        text-decoration: underline;
+        padding: 0px;
+        color:black;
+    }
+    .second_section {
+        margin-left: 20px;
+        
+    }
+    .second_section .first_part{
+    
+        display: flex;
+        margin-right: 5px;
+        height:250px;
+        
+    }
+    .second_section .first_part h1 {
+        margin-top: 70px;
+        font-size: 7px;
+        
+    }
+    .second_section .first_part p {
+        margin-top: 7px;
+        font-size: 15px;
+        font-weight: bold;
+        
+    }
+    .second_section .first_part h2 {
+        
+        font-size: 7px;
+        margin-top: 0px;
+        padding-top: 100px;
+        
+        
+    }
+    .second_section .first_part img {
+        margin-left: 115px;
+        margin-right: 0px;
+        margin-top: 60px;
+        height:200px;
+        width: 80%;
+      
+    }
+    .second_section hr {
+        width: 200px;
+        margin-top: 0px;
+      
+    }
+    .second_section .second_part{
+    
+        display: flex;
+        height: 250px;
+        
+    }
+    .second_section .second_part h1 {
+        margin-top: 40px;
+        font-size: 8px;
+        
+    }
+    .second_section .second_part p {
+        margin-top: 7px;
+        font-size: 15px;
+        font-weight: bold;
+        
+    }
+    .second_section .second_part img {
+        margin-left: 86px;
+        margin-right: 0px;
+        margin-top: 10px;
+        height:200px;
+        width: 87%;
+    }
+}
+
+
+ 
+ 
