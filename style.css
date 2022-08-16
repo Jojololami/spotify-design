@@ -33,7 +33,7 @@ header {
     
     background: rgb(13,54,201);
     background: linear-gradient(90deg, rgba(13,54,201,0.8407738095238095) 0%, rgba(158,160,240,1) 47%, rgba(221,170,227,1) 100%);
-    width: 100%;
+    max-width:400px;
     margin-left: 0px;
 }
 .topnav {
